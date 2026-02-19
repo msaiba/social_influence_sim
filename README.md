@@ -1,8 +1,8 @@
 # Social Influence Simulation
 
-This project is an interactive **Streamlit-based educational app** that demonstrates how behaviours, products and ideas can spread through a social network using a **threshold cascade model** grounded in game theory.
+This project is an fun interactive **Streamlit-based educational app** that demonstrates how behaviours, products and ideas can spread through a social network using a **threshold cascade model** grounded in game theory - a topic that I found very interesting in University. 
 
-The simulation is intentionally simple, visual, and exploratory.
+I made this intentionally simple, visual and exploratory.
 
 ---
 
@@ -13,9 +13,9 @@ The model represents a group of individuals (nodes) connected in a social networ
 * A **threshold**: the fraction of their neighbors who must adopt before they adopt.
 * An **adoption state**: adopted (green) or not adopted (red).
 
-The simulation begins with a small number of **seed adopters**, and adoption spreads according to the threshold rule. The cascade continues until no further changes occur.
+The simulation begins with a small number of **seed adopters** and adoption spreads according to the threshold rule. The cascade continues until no further changes occur.
 
-This project allows users to experiment with:
+This project allows us to experiment with:
 
 * Network size
 * Network connection density
@@ -151,4 +151,4 @@ This project is inspired by foundational work in:
 * Network Science
 * Social Influence Modelling
 
-It is intended as an accessible, hands-on tool for learning and experimentation.
+It is intended as an accessible, hands-on tool for learning and experimentation (and gets me keep practising coding).
